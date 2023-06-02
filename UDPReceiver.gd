@@ -9,8 +9,8 @@ func start():
 	server.listen(8080)
 	_thread_active = true
 	
-	_thread = Thread.new()
-	_thread.start(_receive_packets)
+	#_thread = Thread.new()
+	#_thread.start(_receive_packets)
 	
 	print("Listening on port 8080...")
 
